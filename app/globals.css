@@ -1,27 +1,197 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+ 
+html {
+    scroll-behavior: smooth;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.navLinks {
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+
+
+/* 1f1534-hyfen */
+
+color: #1F1534;
+
+opacity: 0.5;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.navLinks:hover{
+    font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+
+
+color: #2E4E92;
+}
+
+h1 {
+    
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+/* or 117% */
+
+
+color: #3C567B;
+
+mix-blend-mode: normal;
+}
+
+.heroPara {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 19px;
+line-height: 27px;
+/* or 142% */
+
+letter-spacing: 0.02em;
+
+color: #93C1F9;
+
+mix-blend-mode: normal;
+}
+
+h2 {
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 56px;
+/* identical to box height, or 124% */
+
+/* text-align: center; */
+
+color: #462E6A;
+
+mix-blend-mode: normal;
+}
+
+.shp {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 19px;
+line-height: 27px;
+/* or 142% */
+
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #CCD2E9;
+
+mix-blend-mode: normal;
+}
+
+h3 {
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 56px;
+/* identical to box height, or 233% */
+
+text-align: center;
+
+color: #000000;
+
+mix-blend-mode: normal;
+}
+
+.colsPara {
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 28px;
+/* or 175% */
+
+
+color: #7D7987;
+
+mix-blend-mode: normal;
+}
+
+.learnBtn {
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 60px;
+/* identical to box height, or 333% */
+
+
+color: #458FF6;
+
+mix-blend-mode: normal;
+}
+
+.para {
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+
+
+color: #7D7987;
+
+mix-blend-mode: normal;
+}
+
+.footerbg {
+    background: linear-gradient(183.41deg, #6888C8 -8.57%, #5A98F2 82.96%);
+}
+
+.copyright {
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 28px;
+/* or 175% */
+
+
+color: #FFFFFF;
+
+mix-blend-mode: normal;
+}
+
+.footerh {
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 60px;
+/* or 300% */
+
+
+color: #FFFFFF;
+
+mix-blend-mode: normal;
+}
+
+.footerp {
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 38px;
+/* or 211% */
+
+
+color: #FFFFFF;
+
+mix-blend-mode: normal;
 }
