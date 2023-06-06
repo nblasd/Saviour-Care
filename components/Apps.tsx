@@ -20,7 +20,7 @@ function Apps() {
           </div>
 
           <Image
-            src="/../public/assets/images/apps.png"
+            src="/assets/images/apps.png"
             width={626}
             height={463}
             alt="logo"

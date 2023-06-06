@@ -7,7 +7,7 @@ function Footer() {
         <div className="w-[80%] grid md:grid-cols-5 gap-7 mt-10 md:mt-32 mb-20">
           <div className="col-span-2">
             <Image
-              src="/../public/assets/logo/logo.png"
+              src="/assets/logo/logo.png"
               width={229.05}
               height={40}
               alt="logo"

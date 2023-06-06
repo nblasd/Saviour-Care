@@ -20,7 +20,7 @@ function Services() {
             <div className="flex bg-white flex-col items-center w-[90%] rounded-2xl shadow-lg">
               <Image
                 className="pt-10"
-                src="/../public/assets/services/search.png"
+                src="/assets/services/search.png"
                 width={90}
                 height={90}
                 alt="logo"
@@ -34,7 +34,7 @@ function Services() {
             <div className="flex bg-white flex-col items-center w-[90%] rounded-2xl  shadow-lg">
               <Image
                 className="pt-10"
-                src="/../public/assets/services/med.png"
+                src="/assets/services/med.png"
                 width={61.86}
                 height={85}
                 alt="logo"
@@ -48,7 +48,7 @@ function Services() {
             <div className="flex bg-white flex-col items-center w-[90%] rounded-2xl  shadow-lg">
               <Image
                 className="pt-10"
-                src="/../public/assets/services/contact.png"
+                src="/assets/services/contact.png"
                 width={67.29}
                 height={95}
                 alt="logo"
@@ -63,7 +63,7 @@ function Services() {
             <div className="flex bg-white flex-col items-center w-[90%] rounded-2xl  shadow-lg">
               <Image
                 className="pt-10"
-                src="/../public/assets/services/ac.png"
+                src="/assets/services/ac.png"
                 width={67.08}
                 height={95}
                 alt="logo"
@@ -77,7 +77,7 @@ function Services() {
             <div className="flex bg-white flex-col items-center w-[90%] rounded-2xl  shadow-lg">
               <Image
                 className="pt-10"
-                src="/../public/assets/services/firstaid.png"
+                src="/assets/services/firstaid.png"
                 width={80}
                 height={71}
                 alt="logo"
@@ -91,7 +91,7 @@ function Services() {
             <div className="flex bg-white flex-col items-center w-[90%] rounded-2xl  shadow-lg">
               <Image
                 className="pt-10"
-                src="/../public/assets/services/report.png"
+                src="/assets/services/report.png"
                 width={74}
                 height={95}
                 alt="logo"
@@ -111,7 +111,7 @@ function Services() {
       {/* blue-bg */}
       <div className="hidden lg:block absolute left-0 top-[720px] z-[-10]">
         <Image
-          src="/../public/assets/images/blue-bg.png"
+          src="/assets/images/blue-bg.png"
           width={937.96}
           height={671.38}
           alt="logo"

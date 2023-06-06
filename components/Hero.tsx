@@ -18,7 +18,7 @@ function Hero() {
           </div>
           <div>
             <Image
-              src="/../public/assets/images/hero.png"
+              src="/assets/images/hero.png"
               width={769}
               height={554}
               alt="logo"
@@ -29,7 +29,7 @@ function Hero() {
       {/* Dot section */}
       <div className="absolute left-0 top-28 hidden xl:block">
       <Image
-              src="/../public/assets/images/navDots.png"
+              src="/assets/images/navDots.png"
               width={70}
               height={100}
               alt="logo"

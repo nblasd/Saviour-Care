@@ -6,7 +6,7 @@ function Leading() {
       <div className="w-full flex items-center justify-center">
         <div className="w-[90%] xl:w-[80%] 2xl:w-[70%] mt-60 flex flex-col md:flex-row justify-between items-center">
           <Image
-            src="/../public/assets/images/leading.png"
+            src="/assets/images/leading.png"
             width={665}
             height={491}
             alt="logo"

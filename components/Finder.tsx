@@ -6,7 +6,7 @@ function Finder() {
       <div className="w-full flex justify-center items-center">
         <div className="w-[90%] md:w-[100%] lg:w-[90%] xl:w-[80%] flex flex-col md:flex-row justify-between items-center mt-60">
           <Image
-            src="/../public/assets/images/finder.png"
+            src="/assets/images/finder.png"
             width={665}
             height={474}
             alt="logo"

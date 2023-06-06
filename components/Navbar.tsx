@@ -17,7 +17,7 @@ function Navbar() {
     <main>
       <div className="fixed flex justify-between items-center bg-white w-full h-[100px] px-5 lg:px-32">
         <Image
-          src="/../public/assets/logo/logo.png"
+          src="/assets/logo/logo.png"
           width={201}
           height={41}
           alt="logo"
@@ -74,7 +74,7 @@ function Navbar() {
         <div className="flex flex-col items-center">
           <div className="flex justify-between items-center mt-10 w-[80%]">
             <Image
-              src="/../public/assets/logo/mobile-logo.png"
+              src="/assets/logo/mobile-logo.png"
               width={40}
               height={40}
               alt="logo"
